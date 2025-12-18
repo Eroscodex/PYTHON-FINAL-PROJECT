@@ -89,10 +89,12 @@ All running **locally**.
 
 ## 🎥 Full Demo Video
 
-> ⚠️ GitHub does **NOT** support embedded MP4 playback inside README files.
+<video src="/prj-demo-report-output-images/REPORT-DEMO-TUTORIAL.mp4" width="600"></video>
+
 
 ### ▶️ Download / Watch the Demo Video
 [Click here to download the demo video](./prj-demo-report-output-images/REPORT-DEMO-TUTORIAL.mp4)
+
 
 ---
 
