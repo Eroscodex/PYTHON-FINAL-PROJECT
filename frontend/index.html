@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eros Chatbot AI - In Laptop & PC E-commerce</title>
+<link rel="stylesheet" href="style.css?v=1">
+<link rel="icon" type="image/png" href="images/ai.png?v=2">
+</head>
+<body>
+    <div class="app-header">
+        <h1>✦ Eros Chat Assistant in Laptop & PC E-commerce</h1>
+        <div class="subtitle">Your Best AI In The Philippines</div>
+    </div>
+
+    <div id="toast-container" style="position: fixed; top: 20px; right: 20px; z-index: 9999;"></div>
+
+    <div class="container">
+        <div class="status">
+            <div id="status-dot" class="status-dot"></div>
+            <span id="status-text">Checking...</span>
+        </div>
+
+        <div class="chat-controls">
+            <div class="control-group">
+                <select id="model-select">
+                    <option value="">Loading models...</option>
+                </select>
+                <select id="history-select">
+                    <option value="">Select Chat History</option>
+                </select>
+            </div>
+            <div class="control-group">
+                <button id="new-chat-btn">New Chat</button>
+                <button id="save-chat-btn">Save Chat</button>
+                <button id="rename-chat-btn" class="warning" disabled>Rename</button>
+                <button id="delete-chat-btn" class="danger" disabled>Delete</button>
+            </div>
+        </div>
+
+        <div id="messages-container" class="messages">
+            <div id="welcome-message" style="text-align: center; color: #00ff7faa; padding: 20px;">
+                Welcome! Start a conversation with Eros.
+            </div>
+        </div>
+
+         <div id="recommended-prompts" style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px;"></div>
+        
+         <div class="input-area">
+            <textarea 
+                id="message-input" 
+                placeholder="Type your message here..." 
+                rows="1"
+                onkeydown="handleKeyDown(event)"
+                oninput="autoResize(this)"></textarea>
+            <button id="send-btn" onclick="sendMessage()">Send</button>
+            <button id="cancel-btn" onclick="cancelRequest()">Cancel</button>
+        </div>
+    </div>
+
+    <div class="app-footer">
+        <p>Final Project In llama3.2 | Made with Alondra, Cas, Mirandilla, and Loresto. BSIT: 3 Block: A</p>
+    </div>
+
+<script defer src="script.js?v=3"></script>
+</body>
+</html>
+
