@@ -89,7 +89,7 @@ All running **locally**.
 
 ## 🎥 Full Demo Video
 
-<video src="/prj-demo-report-output-images/REPORT-DEMO-TUTORIAL.mp4" width="600"></video>
+https://github.com/user-attachments/assets/03b2ba9b-29f5-49c2-ae19-15b363758ae6
 
 
 ### ▶️ Download / Watch the Demo Video
